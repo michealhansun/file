@@ -1,5 +1,6 @@
+#æŸ¥è¯¢ç½‘å¡åç§°å‘½ä»¤ netsh interface show interface
 @echo off
-netsh interface set interface "WLAN 2" disabled
-netsh interface set interface "ÒÔÌ«Íø 2" enabled
-echo ÒÑ½ûÓÃÎŞÏßÍø¿¨£¬ÆôÓÃÓĞÏßÍø¿¨
+netsh interface set interface "WLAN 2" disabled #å…³é—­æŒ‡å®šç½‘å¡
+netsh interface set interface "ä»¥å¤ªç½‘ 2" enabled #å¯ç”¨æŒ‡å®šç½‘å¡
+echo å·²ç¦ç”¨æ— çº¿ç½‘å¡ï¼Œå¯ç”¨æœ‰çº¿ç½‘å¡
 pause
